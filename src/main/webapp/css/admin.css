@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7f5;
+    color: #333;
+}
+
+/* Admin Navigation */
+
+nav {
+    background-color: #263238;
+    padding: 16px 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 22px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a5d6a7;
+    text-decoration: underline;
+}
+
+/* Headings */
+
+h2 {
+    color: #263238;
+    margin: 30px 40px 20px;
+}
+
+h3 {
+    color: #455a64;
+}
+
+/* Page content */
+
+body > p,
+body > h3,
+body > form,
+body > table,
+body > a,
+body > div {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Forms */
+
+form {
+    background-color: white;
+    padding: 25px;
+    max-width: 700px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    padding: 9px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+}
+
+/* Buttons */
+
+input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #256628;
+}
+
+/* Tables */
+
+table {
+    width: calc(100% - 80px);
+    margin: 20px 40px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+th {
+    background-color: #263238;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f8f3;
+}
+
+/* Links */
+
+a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal line */
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 40px;
+}
